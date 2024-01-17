@@ -29,8 +29,10 @@ args:
 -c, --chars          : when you use formats like 1 and 3, maybe you only want to get username with letter 'a'.
 
 examples:
-python3 username.py -x 1 -f test1 -L lastname_wordlist.txt
+python3 username.py -x 1 -L lastname_wordlist.txt
 
 python3 username.py -x 4 -F firstname_wordlist.txt -L lastname_wordlist.txt
+
+python3 username.py -x 2 -f sp34rh34d -L lastname_wordlist.txt
 ```
 
