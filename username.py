@@ -180,7 +180,7 @@ parser = argparse.ArgumentParser(add_help=False)
 parser.add_argument('-x','--format',help='set username format')
 parser.add_argument('-L','--lastname-file',help='set lastname wordlist')
 parser.add_argument('-l','--lastname',help='set specific lastname')
-parser.add_argument('-F','--firstname-file',help='set firstname wirdlist')
+parser.add_argument('-F','--firstname-file',help='set firstname wordlist')
 parser.add_argument('-f','--firstname',help='set specific firstname')
 parser.add_argument('-c','--chars',default='abcdefghijklmnopqrstuvwxyz',help='set char list [a,b,c,d,etc]')
 
