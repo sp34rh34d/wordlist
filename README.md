@@ -6,7 +6,7 @@ this is for me, because i always lose this code and then i have to write it over
 # passwd.py
 just edit the 'words' array with your target name, you can use l33t speak too.
 ```
-python3 passwd
+python3 passwd.py
 ```
 # username.py
 I usually use this with kerbrute, the companies often create AD username with formats like 'username.lastname','u.lastname','usernamelastname','ulastname', so you can use a custom name list and lastname list to create a list of possible usernames used in AD, then with passwd.py you can create your custom password list to use with a bruteforce attack.
